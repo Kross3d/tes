@@ -24,6 +24,7 @@
 
 #ifdef __APPLE__
 #define MSG_NOSIGNAL 0
+#define SIGPOLL 0
 #endif
 
 #include <stdlib.h>
